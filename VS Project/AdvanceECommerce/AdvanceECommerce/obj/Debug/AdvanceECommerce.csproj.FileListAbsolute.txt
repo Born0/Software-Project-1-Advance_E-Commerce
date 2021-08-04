@@ -121,3 +121,5 @@ C:\Users\Borno\Desktop\SP-1\VS Project\AdvanceECommerce\AdvanceECommerce\obj\Deb
 C:\Users\Borno\Desktop\SP-1\VS Project\AdvanceECommerce\AdvanceECommerce\obj\Debug\AdvanceECommerce.pdb
 C:\Users\Borno\Desktop\SP-1\VS Project\AdvanceECommerce\AdvanceECommerce\obj\Debug\AdvanceECommerce.Migrations.InitDb.resources
 C:\Users\Borno\Desktop\SP-1\VS Project\AdvanceECommerce\AdvanceECommerce\obj\Debug\AdvanceECommerce.csproj.GenerateResource.cache
+C:\Users\Borno\Desktop\SP-1\VS Project\AdvanceECommerce\AdvanceECommerce\obj\Debug\AdvanceECommerce.csproj.AssemblyReference.cache
+C:\Users\Borno\Desktop\SP-1\VS Project\AdvanceECommerce\AdvanceECommerce\obj\Debug\AdvanceECommerce.Migrations.AddedAnnotation.resources
