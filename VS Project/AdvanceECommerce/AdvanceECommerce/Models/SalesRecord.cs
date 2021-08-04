@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
@@ -9,14 +10,38 @@ namespace AdvanceECommerce.Models
     public class SalesRecord
     {
         public int SalesRecordId { get; set; }
+
+
+        [Required(ErrorMessage = "Can't be empty")]
         public int CustomerId { get; set; }
+
+
+        [Required(ErrorMessage = "Can't be empty")]
         public DateTime Date { get; set; }
+
+
+        [Required(ErrorMessage = "Can't be empty")]
         public int ProductId { get; set; }
+
+
+        [Required(ErrorMessage = "Can't be empty")]
         public double Price { get; set; }
+
+
+        [Required(ErrorMessage = "Can't be empty")]
         public int Quantity { get; set; }
+
+
+        [Required(ErrorMessage = "Can't be empty")]
         public double Subtotal { get; set; }
+
+
+        [Required(ErrorMessage = "Can't be empty")]
         public int ShopId { get; set; }
         public int OrderId { get; set; }
+
+
+
         [ForeignKey("CustomerId")]
         public Customer Customer { get; set; }
         [ForeignKey("ProductId")]

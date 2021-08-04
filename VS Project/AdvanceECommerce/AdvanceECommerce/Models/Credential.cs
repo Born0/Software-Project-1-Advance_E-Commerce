@@ -10,8 +10,17 @@ namespace AdvanceECommerce.Models
     public class Credential
     {
         public int CredentialId { get; set; }
+
+
+        [Required(ErrorMessage = "Can't be empty")]
         public int UserId { get; set; }
+
+
+        [Phone]
         public string Phone { get; set; }
+
+
+        [Required(ErrorMessage = "Can't be empty")]
         public string Role { get; set; }
         public string Password { get; set; }
 
