@@ -1,7 +1,0 @@
-Convention:
-Have to do letter: 		"++"
-Have to remove letter: 		"--"
-Confusion:			"??"
-
-1. ++ Data Annotation for Password is not enabled.
-2. ++ Image files will not be Nullable.
